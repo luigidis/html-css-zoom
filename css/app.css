@@ -43,6 +43,7 @@ img {
 .row {
     display: flex;
     column-gap: 5px;
+    margin-bottom: 15px;
 }
 
 .color_white {
@@ -53,10 +54,7 @@ img {
     background-color: #4A4A4A;
 }
 
-
-
-
-/* Css Della prima section */
+/* Section Webcams */
 
 .button_speaker {
     padding: 5px;
@@ -80,8 +78,24 @@ img {
     bottom: 0;
     left: 0;
     font-size: 13px;
+    padding: 5px;
 }
 
+/* Section Toolbar */
+
+.container_toolbar {
+    background-color: #222222;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.end_meeting_button {
+    color: #EE262B;
+    font-size: 13px;
+    background-color: #4A4A4A;
+    /* padding: 20px; */
+}
 /* Debug */
 
 .container_img {
@@ -90,6 +104,6 @@ img {
 }
 
 .container_toolbar {
-    padding: 50px;
+    /* padding: 50px; */
     border: 2px solid salmon;
 }
