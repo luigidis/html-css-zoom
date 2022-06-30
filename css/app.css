@@ -114,6 +114,9 @@ img {
 .container_toolbar p {
     font-size: 13px;
 }
+.container_toolbar .column_opt i {
+    font-size: 25px;
+}
 
 .green_icon {
     color: #4BC800;
