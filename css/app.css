@@ -96,7 +96,18 @@ img {
     background-color: #4A4A4A;
     /* padding: 20px; */
 }
+
+.column_opt {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 /* Debug */
+
+.gap_10 {
+    column-gap: 10px;
+}
 
 .container_img {
     /* padding: 20px; */
@@ -106,4 +117,9 @@ img {
 .container_toolbar {
     /* padding: 50px; */
     border: 2px solid salmon;
+}
+
+.arrow-up {
+    line-height: 35px;
+    font-size: 10px;
 }
